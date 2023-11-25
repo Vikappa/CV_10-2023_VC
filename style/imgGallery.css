@@ -1,0 +1,52 @@
+main div:nth-child(2) {
+    background-image: url("../immagini per hobbies e co/spazio.jpg");
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background-position: -200px -400px;
+}
+
+main div:nth-child(3) {
+    background-image: url("../immagini per hobbies e co/D&D.jpg");
+    background-position: 0 -428px;
+    background-size: cover;
+}
+
+main div:nth-child(4) {
+    background-image: url("../immagini per hobbies e co/goth.jpg");
+    background-position: -25px -539px;
+}
+
+main div:nth-child(5) {
+    background-image: url("../immagini per hobbies e co/ai.jpg");
+    background-size: cover
+}
+
+main div:nth-child(6) {
+    background-image: url("../immagini per hobbies e co/katana.jpg");
+    background-size: cover;
+    background-position: 0 -456px;
+}
+
+main div:nth-child(7) {
+    background-image: url("../immagini per hobbies e co/metal.jpg");
+    background-position: 0 -456px;
+    background-size: cover;
+}
+
+main div:nth-child(8) {
+    background-image: url("../immagini per hobbies e co/roller.jpg");
+    background-size: auto;
+    background-position: 0 -456px;
+}
+
+main div:nth-child(9) {
+    background-image: url("../immagini per hobbies e co/videeogames.jpg");
+    background-position: 0 -330px;
+}
+
+main div:nth-child(10) {
+    background-image: url("../immagini per hobbies e co/tattooo.jpg");
+    background-size: cover;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
