@@ -150,19 +150,14 @@ footer {
     border-radius: 25px;
     overflow: hidden;
     justify-content: space-between;
+    animation: footer 10s infinite;
+    padding-right: 5%;
 }
 
-footer div {}
-
-footer div h1 {
-    font-size: 2em;
+#guildmark {
+    display: block;
+    margin-top: 8%;
 }
-
-footer img:first-of-type {
-    overflow: hidden;
-    width: 30%;
-}
-
 
 #guildmark img {
     width: 5vw;
@@ -171,7 +166,8 @@ footer img:first-of-type {
 }
 
 #guildmark img:first-child {
-    width: 5vw;
+    width: 6vw;
+    margin-right: 2px;
     height: auto;
     border-radius: 0;
 }
@@ -180,17 +176,55 @@ footer img:first-of-type {
     border-radius: 0;
 }
 
-footer div {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin: 3%;
+#guildmark img:last-child {
+    width: 5vw;
 }
 
 #guildmark {
     display: block;
-
 }
 
+/* Stili per schermi di larghezza maggiore o uguale a 920px */
+@media screen and (min-width: 920px) {
 
-/* Fare display per meno di 400px wd */
+    footer div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    footer div h1 {
+        font-size: 3em;
+        margin-top: 2%;
+        color: white;
+        font-weight: 700;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        animation: pulse1 1s infinite;
+    }
+
+    footer div p {
+        font-size: 1.5em;
+        color: rgb(10, 10, 10);
+        font-weight: 500;
+    }
+
+    footer img:first-of-type {
+        overflow: hidden;
+        height: 100%;
+    }
+
+
+    /* Altri stili per schermi di larghezza maggiore o uguale a 920px */
+}
+
+footer {
+    flex-direction: column-reverse;
+}
+
+/* Stili per schermi tra 550px e 920px */
+@media screen and (min-width: 550px) and (max-width: 919px) {}
+
+/* Stili per schermi di larghezza inferiore a 550px */
+@media screen and (max-width: 549px) {}
+
+/* Fare display per meno di 950px wd */
