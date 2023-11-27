@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Ephesis&family=Gruppo&family=PT+Mono&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
 @font-face {
     font-family: 'Pastor of Muppets';
     src: local(), url('../Font/Pastor of Muppets.TTF') format('woff');
@@ -5,8 +8,7 @@
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Ephesis&family=Gruppo&family=PT+Mono&family=Pixelify+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
 
 body {
     background-color: #e6e7ed;
@@ -89,6 +91,7 @@ article p {
     font-family: 'Ephesis', cursive;
     line-height: 1.5em;
     letter-spacing: -1.5px;
+    font-size: 2em;
 }
 
 /* ------------------------------------------------------ nav ------------------------------------ */
@@ -183,12 +186,39 @@ nav div {
 
 /* ------------------------------------------------------ SECTION ------------------------------------- */
 
-section h2 {
-    font-size: 2em;
-    padding: 10%;
-    font-family: 'Gruppo', sans-serif;
-    font-family: 'Barlow Condensed', sans-serif;
+section {
+    margin: 3% 3% 0 3%;
+    background-color: white;
+    border-radius: 7px;
+}
 
+section>h2 {
+    font-size: 2em;
+    padding: 4%;
+    font-family: 'Gruppo', sans-serif;
+}
+
+@media screen and (min-width: 920px) {}
+
+@media screen and (min-width: 550px) and (max-width: 919px) {}
+
+@media screen and (max-width: 549px) {}
+
+/* --------------------------------------------------------------------------- DIV LINGUE ------------------------------------------- */
+
+#divLingue {}
+
+/* ----------------------------------------------------LINGUAGGI PROG --------------------------------------------- */
+#linguaggiProg {
+    background-color: rgb(145, 242, 61);
+    margin: 2%;
+    border-radius: 5px;
+}
+
+#linguaggiProg h2 {
+    padding: 2%;
+    font-size: 2em;
+    font-family: 'Pixelify Sans', sans-serif;
 }
 
 /* ---------------------------------------- FOOTER --------------------------------------------------- */
